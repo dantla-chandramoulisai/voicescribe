@@ -217,7 +217,7 @@ export default function SpeechToTextApp() {
 
   const updateStats = (list) => {
     const words = list.reduce((acc, t) => acc + t.text.split(/\s+/).filter(Boolean).length, 0);
-    const chars = list.reduce((acc, t) => acc + t.text.length, 0);
+    const chars = list.reduce((acc, t) => acc + t.text.replace(/\s/g, "").length, 0);
     setStats({ total: list.length, words, chars });
   };
 
