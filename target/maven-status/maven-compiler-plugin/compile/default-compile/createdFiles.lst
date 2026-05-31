@@ -1,0 +1,17 @@
+com\voicescribe\config\SecurityConfig.class
+com\voicescribe\model\Transcription.class
+com\voicescribe\dto\TranscriptionDTO$DeepgramResponse$Channel.class
+com\voicescribe\dto\TranscriptionDTO$StatsResponse.class
+com\voicescribe\dto\TranscriptionDTO.class
+com\voicescribe\service\DeepgramService.class
+com\voicescribe\config\GlobalExceptionHandler.class
+com\voicescribe\dto\TranscriptionDTO$TranscriptionResponse.class
+com\voicescribe\dto\TranscriptionDTO$DeepgramResponse$Results.class
+com\voicescribe\dto\TranscriptionDTO$DeepgramResponse$Word.class
+com\voicescribe\VoiceScribeApplication.class
+com\voicescribe\service\TranscriptionService.class
+com\voicescribe\repository\TranscriptionRepository.class
+com\voicescribe\controller\TranscriptionController.class
+com\voicescribe\dto\TranscriptionDTO$DeepgramResponse$Alternative.class
+com\voicescribe\dto\TranscriptionDTO$ApiResponse.class
+com\voicescribe\dto\TranscriptionDTO$DeepgramResponse.class
